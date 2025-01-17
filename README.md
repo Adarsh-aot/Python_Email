@@ -1,4 +1,3 @@
-```markdown
 # Email Automation with Attachments
 
 This Python project provides an efficient and customizable solution for sending emails with embedded images, such as inline attachments and signature images, using the `smtplib` library. It uses environment variables to keep credentials secure and supports HTML email templates.
@@ -100,4 +99,4 @@ Contributions are welcome! Feel free to submit issues or pull requests to improv
 This project uses:
 - [Python's smtplib](https://docs.python.org/3/library/smtplib.html) for email automation.
 - [dotenv](https://pypi.org/project/python-dotenv/) for environment variable management.
-```
+
