@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        :root {
+            --primary: #dc3545;
+            --secondary: #2d3748;
+            --background: #f8f9fa;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--background);
+            color: var(--secondary);
+            margin: 0;
+            padding: 2rem;
+            line-height: 1.6;
+        }
+
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: var(--white);
+            border-radius: 1rem;
+            padding: 2.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 2px solid #edf2f7;
+        }
+
+        h1 {
+            color: var(--primary);
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin: 0 0 0.5rem 0;
+        }
+
+        h2 {
+            color: var(--secondary);
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin: 0;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 0 0.5rem;
+        }
+
+        .issues-list {
+            background-color: #f8f9fa;
+            border-radius: 0.5rem;
+            padding: 1.5rem 1.5rem 1.5rem 2.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .issues-list li {
+            margin-bottom: 0.75rem;
+            color: var(--secondary);
+        }
+
+        .issues-list li:last-child {
+            margin-bottom: 0;
+        }
+
+        .placeholder-image {
+            width: 100%;
+            max-width: 400px;
+            height: 200px;
+            margin: 2rem auto;
+            display: block;
+            border-radius: 0.5rem;
+            object-fit: cover;
+        }
+
+        .signature-image {
+            width: 70px;
+            height: 48px;
+            margin-bottom: 0.5rem;
+            fill: var(--primary);
+        }
+
+        .signature {
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 2px solid #edf2f7;
+        }
+
+        .footer {
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #edf2f7;
+            text-align: center;
+            font-size: 0.875rem;
+            color: #718096;
+        }
+
+        @media (max-width: 640px) {
+            body {
+                padding: 1rem;
+            }
+            
+            .container {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="cid:signImage" alt="Signature Image" class="signature-image">
+            <h1>Urgent: No Fax Received in the Last 4 Hours</h1>
+            <h2>Fax Automation Waiting for File</h2>
+        </div>
+
+        <div class="content">
+            <p>Dear Team,</p>
+            
+            <p>It has been over 4 hours since the last fax was received, and the fax automation system is still waiting for a file. If the fax has not been transmitted, please address the issue immediately to avoid further delays.</p>
+            
+            <p>Possible causes for the delay could include:</p>
+            
+            <ul class="issues-list">
+                <li>Temporary service disruption with RingCentral's fax service</li>
+                <li>System misconfiguration or connectivity issues on the recipient's side</li>
+                <li>Network disruptions or transmission errors causing delays</li>
+            </ul>
+            
+            <p>Please ensure that the issue is resolved as soon as possible. Our team is monitoring the situation, but if this continues, please check for any potential faults on your end or contact the support team.</p>
+
+            <img src="cid:image1" alt="Fax Automation Issue" class="placeholder-image">
+            
+            
+
+            <div class="signature">
+                <p>We appreciate your immediate attention to this matter. Thank you for your cooperation in resolving this issue promptly.</p>
+                <p>Best regards,<br>Your Fax Automation Team</p>
+            </div>
+
+            <div class="footer">
+                <p>This is an automated message. Please do not reply directly to this email.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
